@@ -1,0 +1,39 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+b-tagging and b-hadron regression implementation in a Python framework
+Summer Student Program 2018 - Leonardo Petrini
+with the supervision of Andrea Coccaro, Valerio Dao and Francesco Di Bello
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+Parckages needed:
+    - numpy
+    - pandas
+    - matplotlib
+    - scipy
+    - sklearn
+    - pytorch
+    - xgboost
+    - root_pandas (https://github.com/scikit-hep/root_pandas)
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+- bob.py
+contains all the auxiliary functions
+
+
+Scripts
+
+- root2pandas
+convert .root file into .pkl (pandas dataframe)
+
+ models for b-tagging
+
+- random_forest__btagging
+- xgboost_btagging
+- neuralNet_btagging
+
+ models for b-hadron pT regression
+ 
+- xgboost_bH_pT_regression
+- neuralNet_bH_pT_regression
