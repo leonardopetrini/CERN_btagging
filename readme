@@ -32,6 +32,7 @@ convert .root file into .pkl (pandas dataframe)
 - random_forest__btagging
 - xgboost_btagging
 - neuralNet_btagging
+- lightGBM_btagging
 
  models for b-hadron pT regression
  
